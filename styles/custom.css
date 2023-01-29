@@ -14,7 +14,7 @@
 
 @layer components {
   .custom-badge {
-    align-items: stretch;
+    align-items: center;
     align-self: flex-start;
     background-color: #191d24;
     border-radius: 2rem;
