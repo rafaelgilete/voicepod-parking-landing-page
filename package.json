@@ -1,0 +1,35 @@
+{
+  "name": "voicepod-parking-landing-page",
+  "version": "1.0.0",
+  "description": "Voicepod, create and monetize your premium podcast",
+  "main": "index.html",
+  "scripts": {
+    "build": "postcss styles/main.css -o public/dist.css",
+    "dev": "postcss styles/main.css -o public/dist.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafaelgilete/voicepod-parking-landing-page.git"
+  },
+  "keywords": [
+    "voicepod",
+    "podcast"
+  ],
+  "author": "Rafael Gilete",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rafaelgilete/voicepod-parking-landing-page/issues"
+  },
+  "homepage": "https://github.com/rafaelgilete/voicepod-parking-landing-page#readme",
+  "devDependencies": {
+    "autoprefixer": "10.4.13",
+    "cssnano": "5.1.14",
+    "daisyui": "2.49.0",
+    "postcss": "8.4.21",
+    "postcss-cli": "10.1.0",
+    "postcss-import": "15.1.0",
+    "prettier": "2.8.3",
+    "prettier-plugin-tailwindcss": "0.2.2",
+    "tailwindcss": "3.2.4"
+  }
+}
